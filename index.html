@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>VETEB - Gobernación de Antioquía</title>
+</head>
+<body>
+    <div class="main_content">
+        <h1>VETEB</h1>
+        <h3>Verificación de Especificaciones Técnicas de Equipos Biomédicos</h3>
+    
+    </div>
+    <div class="parent">
+        <div class = "disclaimer_content">
+            <h3 >¡ADVERTENCIA!</h3>
+            <p>
+                Este software <b>no reemplaza en ningún caso el criterio ni el conocimiento técnico de un Ingeniero Biomédico.</b> Su propósito es <b>agilizar la primera revisión</b> , pero <b>los resultados deben ser validados siempre por un profesional calificado.</b> Se recomienda realizar una verificación posterior para confirmar el análisis obtenido. No confíe ciegamente en los resultados automáticos; utilícelos como apoyo, no como diagnóstico definitivo.
+            </p>
+    
+        </div>
+    
+    </div>
+
+    <div class = 'files_main_content'>
+        <div class="files_content">
+            <div class="files_datasheet">
+                <div class="files_datasheet_dashed"></div>
+                <input type="file" id="fileInput" /> 
+                <button  type = "button" class="files_datasheet_btn" id="uploadDatasheet">Ficha Técnica</button>
+                <span id="fileNameDS">No se ha seleccionado ningún archivo</span>
+                
+            </div>
+
+            <div class="files_requeriments">
+                <div class="files_requeriments_dashed"></div>
+                <input type="file" id="requerimentInput">
+                <button class="files_requeriments_btn" id="uploadRequeriments"> Requisitos</button>
+                <span id="fileNameRequeriments">No se ha seleccionado ningún archivo</span>
+
+            </div>
+        </div>
+
+       
+
+    </div>
+    <div class="start_content">
+        <button class="start_btn" id="sendFilesBtn">Empezar Chequeo</button>
+
+    </div>
+   
+    
+</body>
+</html>
